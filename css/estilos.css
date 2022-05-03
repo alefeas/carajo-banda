@@ -20,6 +20,73 @@ body{
 }
 
 /*HEADER Y FOOTER*/
+.encabezadoPieDePagina{
+    font-family: 'Raleway', sans-serif;
+}
+header{
+    background-image: linear-gradient(to bottom, black, rgb(32, 32, 32));
+}
+
+nav a img{
+    transition: all 0.5s ease;  
+    margin-left: 50px;
+}
+
+nav a img:hover{
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+}
+
+nav ul{
+    margin-right: 50px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding-bottom: 10px;
+}
+
+nav button{
+    margin-right: 50px;
+}
+
+.active{
+    color: rgb(255, 255, 255);   
+}
+
+nav ul li{
+    transition: all 0.5s ease;
+    list-style: none;
+    position: relative;
+    padding: 0;
+    font-size: 18px;
+}
+
+footer{
+    background-image: linear-gradient(to top, black, rgb(32, 32, 32));
+    gap: 10px;
+}
+
+#containerRedes{
+    display: flex;  
+    margin-right: 50px;
+    gap: 40px;
+}
+
+footer i{
+    margin-top: 15px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    transition: all 0.5s ease;
+}
+
+footer i:hover{
+    color: rgba(155, 155, 155, 0.924);
+    transition: all 0.5s ease;
+    transform: scale(1.15);
+}
+
+/*
 header{
     background-image: linear-gradient(to bottom, black, rgb(32, 32, 32));
     height: 60px;
@@ -51,7 +118,7 @@ header{
     transition: all 0.5s ease;
 }
 
-.barraNavegacion{
+.nav{
     display: flex;
     margin-right: 50px;
     gap: 50px;
@@ -87,7 +154,7 @@ nav ul li a{
     font-size: 18px;
     text-align: center;
     transition: all 0.5s ease;
-    padding: 5px;
+    padding: 0px;
 }
 
 .linkActive{
@@ -116,7 +183,6 @@ nav ul li:hover{
 header div label:hover{
     cursor: pointer;
 }
-
 .encabezadoPieDePagina{
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
@@ -124,6 +190,18 @@ header div label:hover{
     color: rgb(255, 255, 255);
     background-color:rgb(0, 0, 0);
 }
+footer i{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    transition: all 0.5s ease;
+}
+
+footer i:hover{
+    color: rgba(155, 155, 155, 0.924);
+    transition: all 0.5s ease;
+    transform: scale(1.15);
+}
+
 
 #containerRedes{
     display: flex;  
@@ -138,25 +216,19 @@ footer{
     align-items: center;
     justify-content: space-between;
     border-top: 2px solid white;
-}
-
-footer i{
-    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
     color: rgb(255, 255, 255);
-    transition: all 0.5s ease;
 }
 
-footer i:hover{
-    color: rgba(155, 155, 155, 0.924);
-    transition: all 0.5s ease;
-    transform: scale(1.15);
-}
 
 #copyright{
     font-weight: bold;
     margin-left: 50px;
     font-size: 16px;
 }
+*/
+/*
 
 @media only screen and (max-width:1200px){
     nav ul li a{
@@ -236,8 +308,7 @@ footer i:hover{
         font-size: 10px;
     }
 }
-
-
+*/
 /*INICIO*/
 
 .seccionTitulo{
@@ -251,11 +322,13 @@ footer i:hover{
 }
 
 main section article h1{
-    padding-top: 250px;
+    padding-top: 200px;
     color: rgb(255, 255, 255); 
     font-size: 180px;
+    display: flex;
+    align-items: center;
     font-weight: bold;
-    text-align: center;
+    text-align:center;
     font-family: 'Arvo', serif;
     text-shadow: 3px 3px 3px rgb(0, 0, 0);
 }
@@ -321,13 +394,13 @@ main section article h1{
     gap: 150px;
 }
 
-
 #seccion__quienessomos--imagen{
     border-radius: 40px;
-    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
     margin: 0px;
     padding-bottom: 0px;
     width: 850px;
+    text-align: center;
 }
 
 #seccion__quienessomos--texto{
@@ -400,7 +473,7 @@ div a span:hover{
 
 #seccion__estilos--texto{
     width: 770px;
-    line-height: 60px;
+    line-height: 70px;
     text-align: justify;
     justify-content: center;
     margin: auto 0px;
@@ -408,7 +481,7 @@ div a span:hover{
 
 #seccion__estilos--imagen{
     border-radius: 40px;
-    box-shadow: 10px 10px 10px rgb(255, 255, 255);
+    box-shadow: 5px 5px 5px rgb(255, 255, 255);
     width: 420px;     
     height: 480px;  
 }  
@@ -440,7 +513,7 @@ div a span:hover{
 
 #mapa{
     border-radius: 40px;
-    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
     width: 1000px;
     height: 420px;
     align-items: center;
@@ -504,7 +577,7 @@ div a span:hover{
         height: 700px;
     }
     #seccion__quienessomos--imagen{
-        width: 750px;
+        width: 700px;
     }
     #seccion__quienessomos--texto{
         width: 900px;
@@ -565,7 +638,7 @@ div a span:hover{
         height: 700px;
     }
     #seccion__quienessomos--imagen{
-        width: 650px;
+        width: 600px;
     }
     #seccion__quienessomos--texto{
         width: 560px;
@@ -736,7 +809,7 @@ div a span:hover{
     .seccionTitulo{
         height: 400px;
     }
-    main section article h1{
+    main section article div h1{
         font-size: 80px;
     }
     .textoIndex{
@@ -1534,6 +1607,7 @@ div a span:hover{
     padding-top: 80px;
     padding-bottom: 60px;
     background-color: rgba(0, 0, 0, 0.2);
+    margin: 0;
 }
 
 #seccionDiscos{
@@ -1561,8 +1635,8 @@ main section article table ul{
     padding-right: 30px;
     }
 main section article table ul li{
-        list-style: circle;
-    padding-top: 15px;
+    list-style: circle;
+    padding-top: 10px;
 }
 
 .canciones1{
@@ -1642,7 +1716,7 @@ main section article form{
     font-weight: bold;
     padding-top: 20px;
     font-size: 30px;
-}
+}           
 
 .form__input, .form__textarea{
     font-family: 'Raleway', sans-serif; 

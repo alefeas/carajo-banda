@@ -5,27 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carajo</title>
-    <link rel="shortcut icon" href="/images/carajologo.png">
+    <link rel="shortcut icon" href="../images/carajologo.png">
     <link rel="stylesheet" href="../css/estilos.css">   
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="../css/animate.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/animate.css">
+    
 </head>
 <body>
-
-    <header class="encabezadoPieDePagina">
-        <div id="containerLogo">
-            <a href="../index.html"><img src="../images/carajologo.png" alt="Logo de Carajo" class="carajoLogo animated animate__fadeIn"></a>        </div>
-        <nav>
-            <ul class="barraNavegacion animated animate__fadeIn">
-                <li><a href="../index.html"><strong><em>Inicio</em></strong></a></li>
-                <li><a href="#" class="linkActive"><strong><em>Integrantes</em></strong></a></li>
+    <header class="sticky-top border border-white border-top-0 border-right-0 border-left-0 encabezadoPieDePagina">
+        <nav class="navbar navbar-expand-md navbar-dark p-0">
+            <a class="navbar-brand" href="#"><img src="../images/carajologo.png" width="45px" height="45px" class="rounded-circle" alt="Logo Carajo"></a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
+            <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse text-center" id="collapse_target">
+                <ul class="navbar-nav ml-auto font-weight-bold">
+                    <li class="nav-item"><a href="../index.html" class="nav-link">Inicio</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link active">Integrantes</a></li>
+                    <li class="nav-item"><a href="galeria.html" class="nav-link">Galería</a></li>
+                    <li class="nav-item"><a href="discos.html" class="nav-link">Nuestros discos</a></li>
+                    <li class="nav-item"><a href="contacto.html" class="nav-link">Contacto</a></li>
+                </ul>
+            </div>
+            </nav>
+    </header>
+    <!--
+        <header class="encabezadoPieDePagina">
+            <div id="containerLogo">
+                <a href="../index.html"><img src="../images/carajologo.png" alt="Logo de Carajo" class="carajoLogo animated animate__fadeIn"></a>        </div>
+                <nav>
+                    <ul class="barraNavegacion animated animate__fadeIn">
+                        <li><a href="../index.html"><strong><em>Inicio</em></strong></a></li>
+                        <li><a href="#" class="linkActive"><strong><em>Integrantes</em></strong></a></li>
                 <li><a href="galeria.html"><strong><em>Galería</em></strong></a></li>
                 <li><a href="discos.html"><strong><em>Nuestros discos</em></strong></a></li>
                 <li><a href="contacto.html"><strong><em>Contacto</em></strong></a></li>
             </ul>
         </nav>
     </header>
+-->
     
 <main>
     <div id="tituloIntegrantes" class="animated animate__fadeIn">
@@ -33,8 +53,8 @@
     </div>
     <section id="seccionMarceloCorvalan">
         <article class="seccionIntegrantes">
-            <div id="marceloCorvalanTexto" data-aos="fade-left">
-                    <h2 id="tituloMarceloCorvalan">Marcelo Corvalán</h2>
+            <div id="marceloCorvalanTexto"  data-aos="fade-left">
+                    <h2 class="font-weight-bold" id="tituloMarceloCorvalan">Marcelo Corvalán</h2>
                     <p>Marcelo Gabriel Corvalán, también conocido como Corvata nació en 
                         Villa Crespo, Buenos Aires, el 10 de noviembre de 1971. Es un bajista,
                         cantante y compositor argentino que tocó en la banda de groove 
@@ -49,7 +69,7 @@
         <section>
             <article class="seccionIntegrantes" id="seccionAndresVillanova">
                 <div id="andresVillanovaTexto" data-aos="fade-right">
-                    <h2 id="tituloAndresVillanova" >Andrés Vilanova</h2>
+                    <h2 class="font-weight-bold" id="tituloAndresVillanova">Andrés Vilanova</h2>
                     <p>Andrés Vilanova (n. 27 de agosto de 1979 en Madrid, España), 
                         también conocido como Andy y anteriormente como El niño, es un baterista, 
                         compositor y productor musical español nacionalizado argentino,
@@ -64,7 +84,7 @@
         <section>
             <article class="seccionIntegrantes" id="seccionHernanLanger">   
             <div id="hernanLangerTexto" data-aos="fade-left">
-                    <h2 id="tituloHernanLanger">Hernán Langer</h2>
+                    <h2 class="font-weight-bold" id="tituloHernanLanger">Hernán Langer</h2>
                     <p>Hernán Marino Langer, más conocido como Tery (Buenos Aires, 29 de noviembre de 1979), es 
                 un guitarrista, cantante y compositor argentino. Es miembro de la banda de nü metal/punk 
                 rock Carajo. Es considerado en la posición nº 66 entre los 100 mejores guitarristas de 
@@ -76,15 +96,16 @@
                 </article>
         </section>
 </main>
-    <footer class="encabezadoPieDePagina" id="footerGrid">
-        <div id="containerCopyright">
-            <p id="copyright" class="animated animate__fadeIn">©2022 Carajo. Todos los derechos reservados.</p>
-        </div>
-        <div id="containerRedes" class="animated animate__fadeIn">
-            <a href="https://www.youtube.com/channel/UCipSFsBnjESmkPPLBAdZ3ew" target="_blank"><i class="fa-brands fa-youtube" class="logoRedes" id="youtube"></i></a>
-            <a href="https://open.spotify.com/artist/5tDdTDGy0l8rHkeLaaEyyN?si=dscbYYvmTYWB9HuBZMDvrw" target="_blank"><i class="fa-brands fa-spotify" class="logoRedes" id="spotify"></i></a>
-            <a href="https://www.instagram.com/carajomusic/" target="_blank"><i class="fa-brands fa-instagram" class="logoRedes" id="instagram"></i></a>
-        </div>
+<footer class="d-flex flex-column encabezadoPieDePagina text-white font-weight-bold border border-white border-bottom-0 border-right-0 border-left-0">
+    <div id="containerRedes" class="ml-auto mr-auto animated animate__fadeIn">
+        <a href="https://www.youtube.com/channel/UCipSFsBnjESmkPPLBAdZ3ew" target="_blank"><i class="fa-brands fa-youtube" class="logoRedes" id="youtube"></i></a>
+        <a href="https://open.spotify.com/artist/5tDdTDGy0l8rHkeLaaEyyN?si=dscbYYvmTYWB9HuBZMDvrw" target="_blank"><i class="fa-brands fa-spotify" class="logoRedes" id="spotify"></i></a>
+        <a href="https://www.instagram.com/carajomusic/" target="_blank"><i class="fa-brands fa-instagram" class="logoRedes" id="instagram"></i></a>
+    </div>
+    <div id="containerCopyright"class="ml-auto mr-auto" >
+        <p id="copyright" class="animated animate__fadeIn">©2022 Carajo. Todos los derechos reservados.</p>
+    </div>
+</footer>
 
         <script src="js/wow.min.js"></script>
         <script>
@@ -101,5 +122,9 @@
             animatedClassName: 'animated',
             });
         </script>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
 </body>
 </html>
