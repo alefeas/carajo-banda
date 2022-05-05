@@ -14,9 +14,9 @@
     
 </head>
 <body>
-    <header class="sticky-top border border-white border-top-0 border-right-0 border-left-0 encabezadoPieDePagina">
+    <header class="sticky-top border border-white border-top-0 border-right-0 border-left-0 encabezadoPieDePagina animated animate__fadeInDown">
         <nav class="navbar navbar-expand-md navbar-dark p-0">
-            <a class="navbar-brand" href="#"><img src="../images/carajologo.png" width="45px" height="45px" class="rounded-circle" alt="Logo Carajo"></a>
+            <a class="navbar-brand" href="../index.html"><img src="../images/carajologo.png" width="45px" height="45px" class="rounded-circle carajoLogo" alt="Logo Carajo"></a>
             <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
             <i class="fa-solid fa-bars"></i>
             </button>
@@ -48,19 +48,22 @@
 -->
     
 <main>
-    <div id="tituloIntegrantes" class="animated animate__fadeIn">
-        <h1>INTEGRANTES DE LA BANDA</h1>
+    <div id="seccionTituloIntegrantes" class=" animated animate__fadeIn">
+        <h1 id="tituloIntegrantes">INTEGRANTES DE LA BANDA</h1>
     </div>
+    <div class="gradient">
+
+   
     <section id="seccionMarceloCorvalan">
-        <article class="seccionIntegrantes">
-            <div id="marceloCorvalanTexto"  data-aos="fade-left">
+        <article class="seccionIntegrantes" data-aos="fade-left">
+            <div id="marceloCorvalanTexto">
                     <h2 class="font-weight-bold" id="tituloMarceloCorvalan">Marcelo Corvalán</h2>
                     <p>Marcelo Gabriel Corvalán, también conocido como Corvata nació en 
                         Villa Crespo, Buenos Aires, el 10 de noviembre de 1971. Es un bajista,
                         cantante y compositor argentino que tocó en la banda de groove 
                         metal A.N.I.M.A.L. y actualmente en la banda de Nü metal/Punk Rock Carajo.</p>
                     </div>
-                    <div data-aos="fade-left">
+                    <div>
                         <img id="marceloCorvalanFoto" src="../images/Marcelo_corvalan.jpg" alt="Marcelo Corvalán" width="300px">
                     </div>
             </article>
@@ -68,7 +71,7 @@
             
         <section>
             <article class="seccionIntegrantes" id="seccionAndresVillanova">
-                <div id="andresVillanovaTexto" data-aos="fade-right">
+                <div id="andresVillanovaTexto" data-aos="fade-right" class="scaleTexto">
                     <h2 class="font-weight-bold" id="tituloAndresVillanova">Andrés Vilanova</h2>
                     <p>Andrés Vilanova (n. 27 de agosto de 1979 en Madrid, España), 
                         también conocido como Andy y anteriormente como El niño, es un baterista, 
@@ -83,7 +86,7 @@
             
         <section>
             <article class="seccionIntegrantes" id="seccionHernanLanger">   
-            <div id="hernanLangerTexto" data-aos="fade-left">
+            <div id="hernanLangerTexto" class="scaleTexto"data-aos="fade-left">
                     <h2 class="font-weight-bold" id="tituloHernanLanger">Hernán Langer</h2>
                     <p>Hernán Marino Langer, más conocido como Tery (Buenos Aires, 29 de noviembre de 1979), es 
                 un guitarrista, cantante y compositor argentino. Es miembro de la banda de nü metal/punk 
@@ -94,7 +97,8 @@
                     <img src="../images/Terry_Langer.jpg" id="hernanLangerFoto" alt="Hernán Langer" width="300">
                 </div>
                 </article>
-        </section>
+        </section> 
+    </div>
 </main>
 <footer class="d-flex flex-column encabezadoPieDePagina text-white font-weight-bold border border-white border-bottom-0 border-right-0 border-left-0">
     <div id="containerRedes" class="ml-auto mr-auto animated animate__fadeIn">

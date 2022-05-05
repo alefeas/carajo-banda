@@ -14,9 +14,9 @@
     </head>
     <body class="containerIndex">
         <main>
-            <header class="sticky-top border border-white border-top-0 border-right-0 border-left-0 encabezadoPieDePagina">
-                <nav class="navbar navbar-expand-md navbar-dark p-0">
-                    <a class="navbar-brand" href="#"><img src="images/carajologo.png" width="45px" height="45px" class="rounded-circle" alt="Logo Carajo"></a>
+            <header class="sticky-top border border-white border-top-0 border-right-0 border-left-0 encabezadoPieDePagina animated animate__fadeInDown">
+                <nav class="navbar navbar-expand-md navbar-dark p-1">
+                    <a class="navbar-brand" href="#"><img src="images/carajologo.png" width="45px" height="45px" class="rounded-circle carajoLogo" alt="Logo Carajo"></a>
                     <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
                     <i class="fa-solid fa-bars"></i>
                     </button>
@@ -25,7 +25,7 @@
                             <li class="nav-item"><a href="#" class="nav-link active">Inicio</a></li>
                             <li class="nav-item"><a href="pages/integrantes.html" class="nav-link">Integrantes</a></li>
                             <li class="nav-item"><a href="pages/galeria.html" class="nav-link">Galería</a></li>
-                            <li class="nav-item"><a href="pages/discos.html" class="nav-link">Nuestros discos</a></li>
+                            <li class="nav-item"><a href="pages/discos.html" class="nav-link">Discos</a></li>
                             <li class="nav-item"><a href="pages/contacto.html" class="nav-link">Contacto</a></li>
                         </ul>
                     </div>
@@ -52,21 +52,23 @@
         
         <section id="carajo">
             <article class="seccionTitulo">
-                <div class=" animated animate__fadeIn">
+                <div class="animated animate__fadeIn">
                     <h1>CARAJO</h1>
                     <p class="textoIndex">NO CUALQUIERA SUMA SIN RESTAR.</p>
                 </div>
-                <div id="containerFlecha" class="animated animate__fadeIn" >
+                <div id="containerFlecha" class=" animated animate__fadeIn" >
                     <a href="#seccion__quienessomos"><i class="fa-solid fa-angle-down" id="flecha"></i></a>
                 </div>
             </article>
         </section>
+
         
+            <div class="gradient">
         <section>
             <article class="seccionIndex" id="seccion__quienessomos">
                 <div id="flex" data-aos="fade-right">
                 <div id="seccion__quienessomos--texto">
-                    <h2 class="font-weight-bold">¿Quiénes somos?</h2>
+                    <h2 class="font-weight-bold titulosSeccionIndex">¿Quiénes somos?</h2>
                     <p>Carajo es un power trio argentino fundado en el 2000 por Marcelo Corvalán, Andrés Vila
                         nova y Hernán Langer. La banda se definió en una primera época como punk rock/nu metal, aunque
                         posteriormente amplió su sonido hacia el groove metal.</p>
@@ -80,11 +82,10 @@
                     </div> 
             </article>
         </section>              
-        <div>
             <section id="estilos">
                 <article class="seccionIndex" id="seccion__estilos">
                     <div id="seccion__estilos--texto" data-aos="fade-left">
-                        <h2 class="font-weight-bold">Estilo musical, letras e influencias</h2>
+                        <h2 class="font-weight-bold titulosSeccionIndex">Estilo musical, letras e influencias</h2>
                         <p>El estilo de la banda podría etiquetarse, aunque es muy difícil hacerlo con certeza, como 
                         Nu metal, Rock alternativo, Hardcore punk, Groove metal y Metalcore. Las letras 
                         de la banda, que normalmente se fijan en la orientación espiritual, no tienen un mensaje apocalíptico 
@@ -100,7 +101,7 @@
             <section>
                 <article class="seccionIndex ubicacion" id="seccionUbicacion">
                     <div class="textoUbicacion" data-aos="fade-down">
-                        <h2 class="font-weight-bold">¡Viví una experiencia en vivo inolvidable!</h2>
+                        <h2 class="font-weight-bold titulosSeccionIndex">¡Viví una experiencia en vivo inolvidable!</h2>
                         <p>Si buscas un buen plan de fin de semana, todos los sábados del año a las 21:00 hs. tocamos en Rodney Bar. ¡No te podes perder este gran show!</p>
                     </div>
                     <div data-aos="fade-up">
@@ -108,9 +109,10 @@
                     </div>
                 </article>
             </section>
+            </div>
         </main>
         
-        <footer class="d-flex flex-column encabezadoPieDePagina text-white font-weight-bold border border-white border-bottom-0 border-right-0 border-left-0">
+        <footer class="d-flex flex-column gap-20px encabezadoPieDePagina text-white font-weight-bold border border-white border-bottom-0 border-right-0 border-left-0">
             <div id="containerRedes" class="ml-auto mr-auto animated animate__fadeIn">
                 <a href="https://www.youtube.com/channel/UCipSFsBnjESmkPPLBAdZ3ew" target="_blank"><i class="fa-brands fa-youtube" class="logoRedes" id="youtube"></i></a>
                 <a href="https://open.spotify.com/artist/5tDdTDGy0l8rHkeLaaEyyN?si=dscbYYvmTYWB9HuBZMDvrw" target="_blank"><i class="fa-brands fa-spotify" class="logoRedes" id="spotify"></i></a>
