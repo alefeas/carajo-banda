@@ -1,0 +1,445 @@
+
+@media only screen and (max-width:1478px){
+    .seccionIndex{
+        font-size: 18px;
+        .titulosSeccionIndex{
+            font-size: 30px;
+        }
+    }
+    #seccion__quienessomos{
+        gap: 50px;
+        #containerTextoBoton{
+            #seccion__quienessomos--texto{
+                width: 350px;
+            }
+        }
+        #seccion__quienessomos--imagen{
+            width: 750px;
+        }
+    }
+    #seccion__estilos{
+        gap: 50px;
+        #seccion__estilos--texto{
+            width: 700px;
+        }
+    }
+    #seccionUbicacion{
+        font-size: 18px;
+        .textoUbicacion{
+            width: 1200px;
+        }
+    }
+}
+@media only screen and (max-width:1200px){
+    .seccionIndex{
+        font-size: 16px;
+        line-height: 50px;
+        gap: 0px;
+        height: 700px;
+        .titulosSeccionIndex{
+            font-size: 26.5px;
+            padding-bottom: 10px;
+        }
+    }
+    .seccionTitulo{
+        height: 800px;
+        .containerTitulo{
+            h1{
+                font-size: 160px;
+            }
+            .textoIndex{
+                font-size: 35px;
+            }
+        }
+        #containerFlecha{
+            #flecha{
+                display: none;
+            }
+        }
+}
+
+#seccion__quienessomos{
+    flex-direction: column;
+    gap: 20px;
+    height: 700px;
+        #containerTextoBoton{
+            gap:0px;
+            #seccion__quienessomos--texto{
+                width: 900px;
+            }
+            #masInfo{
+                line-height: 0px;
+                &::after{
+                    border-bottom-color: rgba(255, 255, 255, 0.83);
+                }
+            }
+        }
+        #seccion__quienessomos--imagen{
+            width: 700px;
+        }
+    }
+    #seccion__estilos{
+        gap: 70px;
+        height: 700px;
+        #seccion__estilos--imagen{
+            width: 450px;
+            height: 450px;
+        }
+        #seccion__estilos--texto{
+            width:400px;
+            line-height:41px;
+        }
+    }
+    #seccionUbicacion{
+        font-size: 16px;
+        height: 700px;
+        #mapa{
+            width: 800px;
+        }
+        .textoUbicacion{
+            line-height: 50px;
+            margin: 0 auto;
+            width: 540px;
+        }
+    }
+}
+
+@media only screen and (max-width:1000px){
+    .seccionIndex{
+        font-size: 15px;
+        line-height: 50px;
+        gap: 0px;
+        .titulosSeccionIndex{
+            font-size: 24px;
+            text-align: center;
+        }
+    }
+    .seccionTitulo{
+        height: 400px;
+        padding-top: 60px;
+        .containerTitulo{
+            h1{
+                font-size: 110px;
+            }
+            .textoIndex{
+                font-size: 25px;
+            }
+        }
+    }
+    #seccion__quienessomos{
+        flex-direction: column;
+        gap: 20px;
+        height: 700px;
+        #containerTextoBoton{
+            gap:0px;
+            #masInfo{
+                line-height: 0px;
+            }
+            #seccion__quienessomos--texto{
+                width: 560px;
+            }
+        }
+        #seccion__quienessomos--imagen{
+            width: 600px;
+        }
+    }
+    #seccion__estilos{
+        flex-direction: column;
+        gap: 0px;
+        height: 800px;
+        #seccion__estilos--imagen{
+            width: 500px;
+            height: 360px;
+            margin-bottom: 70px;  
+        }
+        #seccion__estilos--texto{
+            line-height: 40px;
+            text-align: left;
+            width: 695px;
+            margin-top: 70px;
+        }
+    }
+    #seccionUbicacion{
+        font-size: 15px;
+        height: 700px;
+        #mapa{
+            width: 700px;
+        }
+        .textoUbicacion{
+            line-height: 40px;
+            width: 510px;
+        }
+    }
+}
+@media only screen and (max-width:768px){
+    .seccionIndex{
+        font-size: 13px;
+        gap: 0px;
+        .titulosSeccionIndex{
+            font-size: 22px;
+        }
+    }
+.seccionTitulo{
+    height: 400px;
+    .containerTitulo{
+    h1{
+        font-size: 100px;   
+    }
+    .textoIndex{
+        font-size: 22px;
+    }
+    }
+}
+#seccion__quienessomos{
+    flex-direction: column;
+    gap: 20px;
+    height: 700px;
+    #containerTextoBoton{
+        #masInfo{
+                line-height: 0px;
+            }
+            #seccion__quienessomos--texto{
+                width: 500px;
+            }
+        }
+        #seccion__quienessomos--imagen{
+            width: 550px;
+        }
+    }
+    #seccion__estilos{
+        padding-top: 30px;
+        flex-direction: column;
+        gap: 0px;
+        height: 700px;
+        #seccion__estilos--imagen{
+            width: 400px;
+            height: 300px;
+            margin-bottom: 100px;
+        }
+        #seccion__estilos--texto{
+            text-align: left;
+            width: 500px;
+            line-height: 40px;
+        }
+    }
+    #seccionUbicacion{
+        font-size: 14px;
+        height: 700px;
+        #mapa{
+            width: 550px;
+        }
+        .textoUbicacion{
+            line-height: 50px;
+            width: 470px;
+        }
+    }
+}
+@media only screen and (max-width:600px){
+    .seccionIndex{
+        font-size: 13px;   
+        gap: 0px;
+        .titulosSeccionIndex{
+            font-size: 18px;
+        }
+    }
+    .seccionTitulo{
+        height: 400px;
+        .containerTitulo{
+        h1{
+            font-size: 90px;
+        }
+        .textoIndex{
+            font-size: 20px;
+        }
+        }
+    }
+    #seccion__quienessomos{
+        flex-direction: column;
+        gap: 20px;
+        height: 700px;
+        #containerTextoBoton{
+            #masInfo{
+                line-height: 0px;
+            }
+            #seccion__quienessomos--texto{
+                line-height: 50px;
+                width: 400px;
+                text-align:justify;
+            }
+        }
+        #seccion__quienessomos--imagen{
+            width: 430px;
+            height: 280px;
+            box-shadow: 4px 4px 4px;
+        }
+    }
+    #seccion__estilos{
+        padding-top: 30px;
+        flex-direction: column;
+        gap: 0px;
+        height: 700px;
+        #seccion__estilos--imagen{
+            width: 400px;
+            height: 300px;
+            margin-bottom: 30px;
+            box-shadow: 4px 4px 4px;
+        }
+        #seccion__estilos--texto{
+            text-align: justify;
+            width: 395px;
+            line-height: 40px;
+        }
+    }
+    #seccionUbicacion{
+        font-size: 13px;
+        height: 700px;
+        #mapa{
+            width: 440px;
+            height: 350px;
+            box-shadow: 4px 4px 4px;
+        }
+        .textoUbicacion{
+            line-height: 50px;
+            margin: 0 auto;
+            width: 440px;
+            padding-top: 100px;
+        }
+    }
+}
+@media only screen and (max-width:480px){
+    .seccionIndex{
+        font-size: 12px;   
+        gap: 0px;
+    }
+    .seccionTitulo{
+        height: 400px;
+        .containerTitulo{
+            h1{
+                font-size: 80px;
+            }
+            .textoIndex{
+                font-size: 18px;
+            }
+        }
+    }
+    #seccion__quienessomos{
+        flex-direction: column;
+        gap: 20px;
+        height: 700px;
+        #containerTextoBoton{
+            #masInfo{
+                line-height: 0px;
+            }
+            #seccion__quienessomos--texto{
+                line-height: 50px;
+                width: 350px;
+                text-align: justify;
+            }
+        }
+        #seccion__quienessomos--imagen{
+            width: 370px;
+            box-shadow: 3px 3px 3px;
+        }
+    }
+    #seccion__estilos{
+        padding-top: 30px;
+        flex-direction: column;
+        gap: 0px;
+        height: 700px;
+        #seccion__estilos--texto{
+            text-align: justify;
+            width: 370px;
+            line-height: 35px;
+        }
+        #seccion__estilos--imagen{
+            width: 300px;
+            height: 250px;
+            margin-bottom: 90px;
+            box-shadow: 3px 3px 3px;
+        }
+    }
+    #seccionUbicacion{
+        font-size: 12px;
+        height: 700px;
+        #mapa{
+            width: 360px;
+            height: 300px;
+            box-shadow: 3px 3px 3px;
+        }
+        .textoUbicacion{
+            line-height: 50px;
+            margin: 0 auto;
+            width: 340px;
+            padding-top: 0px;
+        }
+    }
+}
+@media only screen and (max-width:390px){
+    .seccionIndex{
+        font-size: 10px;   
+        gap: 0px;
+        .titulosSeccionIndex{
+            font-size: 17px;
+        }
+    }
+    .seccionTitulo{
+        height: 400px;
+        padding-top: 80px;
+        .containerTitulo{
+            h1{
+                font-size: 60px;
+            }
+            .textoIndex{
+                font-size: 13.5px;
+            }
+        }
+    }
+    #seccion__quienessomos{
+        flex-direction: column;
+        gap: 20px;
+        height: 700px;
+        #containerTextoBoton{
+            gap:0px;
+            #masInfo{
+                line-height: 0px;
+            }
+            #seccion__quienessomos--texto{
+                line-height: 50px;
+                width: 300px;
+            }
+        }
+        #seccion__quienessomos--imagen{
+            width: 300px;
+            height: 240px;
+        }
+    }
+    #seccion__estilos{
+        padding-top: 30px;
+        flex-direction: column;
+        gap: 0px;
+        height: 700px;
+        #seccion__estilos--imagen{
+            width: 300px;
+            height: 250px;
+            margin-bottom: 100px;
+        }
+        #seccion__estilos--texto{
+            text-align: justify;
+            width: 310px;
+            line-height: 35px;
+        }
+    }
+    #seccionUbicacion{
+        font-size: 11px;
+        height: 700px;
+        #mapa{
+            width: 300px;
+            height: 300px;
+        }
+        .textoUbicacion{
+            line-height: 50px;
+            margin-top: 50px;
+            width: 310px;
+        }
+    }
+}

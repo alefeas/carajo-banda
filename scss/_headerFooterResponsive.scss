@@ -1,0 +1,114 @@
+@media only screen and (max-width: 900px) {
+  
+  footer {
+    height: 120px;
+    #containerRedes {
+      margin-top: 30px;
+      i {
+        font-size: 28px;
+        }
+    }
+    #copyright {
+      font-size: 15px;
+    }
+    }
+    nav{
+      ul{
+        li{
+          a{
+            font-size: 16px;
+          } 
+          } 
+        }
+      }
+  }
+  @media only screen and (max-width: 767px) {
+    header{
+      nav{
+        ul{
+          margin-right: 0px;
+        }
+      }
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    header {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      gap: 0;
+      border-bottom: white solid 2px;
+      nav{
+        button {
+          margin-right: 20px;
+        }
+        ul{ 
+          li{
+            a{
+              font-size: 12px;
+            }
+          }
+        }
+        .carajoLogo {
+          margin-left: 20px;
+          width: 40px;
+          height: 40px;
+        }
+      } 
+    }
+    footer{
+      #containerRedes {
+        margin-right: 20px;
+        gap: 40px;
+        i {
+          font-size: 26px;
+        }
+      }
+      #copyright {
+        font-size: 14px;
+      }
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    footer {
+      height: 100px;
+      #containerRedes {
+        gap: 30px;
+        margin-top: 25px;
+      i {
+        font-size: 24px;
+      }
+    }
+    #copyright {
+      font-size: 13px;
+    }
+    }
+  }
+  @media only screen and (max-width: 479px) {
+    footer{
+      #containerRedes {
+        gap: 30px;
+        i {
+          font-size: 22px;
+        }
+      }
+      #copyright {
+        font-size: 12px;
+      }
+    }
+    header{
+      nav{
+        .carajoLogo {
+          width: 35px;
+          height: 35px;
+        }
+        ul{
+          li{
+            a {
+              font-size: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
