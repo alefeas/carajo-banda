@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carajo</title>
+    <title>Contacto | Carajo</title>
+    <meta name="description" content="No dudés en contactarnos. Podés hacerlo ya sea completando nuestro formulario o con un mensaje por las redes sociales.">
+    <meta name="keywords" content="carajo,contacto,banda,Argentina,Buenos Aires,shows,recitales,conciertos">
     <link rel="shortcut icon" href="../images/carajologo.png">
     <link rel="stylesheet" href="../css/estilos.css">   
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />     
@@ -51,37 +53,35 @@
     -->
 
 <main>  
-    <section class="animated animate__fadeIn">
+    <section>
         <article class="seccionContacto">
             <h1 class="tituloContacto">CONTÁCTENOS</h1>
             <div id="containerForm" class="fondoBlanco">
             <form action="" method="" enctype="text/plain">
                 
-                <div>
+                <div id="containerNombre">
                     <label class="form__label" for="">Nombre:</label>
                     <input class="form__input" type="text" name="" id="" placeholder="Ejemplo: Juan" required>
                 </div>
-
-                    <div>
+                    <div id="containerApellido">
                         <label class="form__label" for="">Apellido:</label>
                         <input class="form__input" type="text" name="" id="" placeholder="Ejemplo: Rodriguez" required>
                     </div>
-
                     <div id="container__sexo">
                         <div id="form__sexo">Sexo:</div>
                         <select class="form__select" name="sexo" id="" required>
-                            <option class="form__select--option font-weight-bold d-flex justify-content-center" value="M">Mujer</option>
+                            <option class="form__select--option font-weight-bold" value="M">Mujer</option>
                             <option class="form__select--option font-weight-bold" value="H">Hombre</option>
                             <option class="form__select--option font-weight-bold" value="X">Otro</option>
                         </select>
                     </div>
                     
-                    <div>    
-                        <label id="form__label--mail" class="form__label" for="">E-Mail:</label>
+                    <div id="#containerMail">    
+                        <label id="form__label--mail mt-0" class="form__label" for="">E-Mail:</label>
                         <input class="form__input" type="email" name="" id="" placeholder="" required>
                     </div>
                     
-                    <div>
+                    <div id="containerMensaje">
                         <label class="form__label" >Mensaje:</label>
                         <textarea class="form__textarea" name="" id="" cols="30" rows="10" required maxlength="500"></textarea>
                     </div>
@@ -102,13 +102,13 @@
 </main>
             
 <footer class="d-flex flex-column encabezadoPieDePagina text-white font-weight-bold border border-white border-bottom-0 border-right-0 border-left-0">
-    <div id="containerRedes" class="ml-auto mr-auto animated animate__fadeIn">
+    <div id="containerRedes" class="ml-auto mr-auto">
         <a href="https://www.youtube.com/channel/UCipSFsBnjESmkPPLBAdZ3ew" target="_blank"><i class="fa-brands fa-youtube" class="logoRedes" id="youtube"></i></a>
         <a href="https://open.spotify.com/artist/5tDdTDGy0l8rHkeLaaEyyN?si=dscbYYvmTYWB9HuBZMDvrw" target="_blank"><i class="fa-brands fa-spotify" class="logoRedes" id="spotify"></i></a>
         <a href="https://www.instagram.com/carajomusic/" target="_blank"><i class="fa-brands fa-instagram" class="logoRedes" id="instagram"></i></a>
     </div>
     <div id="containerCopyright"class="ml-auto mr-auto" >
-        <p id="copyright" class="animated animate__fadeIn">©2022 Carajo. Todos los derechos reservados.</p>
+        <p id="copyright">©2022 Carajo. Todos los derechos reservados.</p>
     </div>
 </footer>
 
