@@ -38,7 +38,7 @@
             width: 1200px;
         }
         #mapa{
-            width: 1200px;
+            width: 1160px;
         }
     }
 }
@@ -73,10 +73,11 @@
     flex-direction: column;
     gap: 20px;
     height: 700px;
+    padding-top: 50px;
         #containerTextoBoton{
             gap:0px;
             #seccion__quienessomos--texto{
-                width: 900px;
+                width: 880px;
             }
             #masInfo{
                 line-height: 0px;
@@ -91,12 +92,14 @@
             }
         }
         #seccion__quienessomos--imagen{
-            width: 700px;
+            width: 850px;
+            height: 420px;
         }
     }
     #seccion__estilos{
         gap: 70px;
         height: 700px;
+        padding-top: 100px;
         #seccion__estilos--imagen{
             width: 450px;
             height: 500px;
@@ -147,6 +150,7 @@
         flex-direction: column;
         gap: 20px;
         height: 700px;
+        padding-top: 60px;
         #containerTextoBoton{
             gap:0px;
             #masInfo{
@@ -157,25 +161,26 @@
                 }
             }
             #seccion__quienessomos--texto{
-                width: 560px;
+                width: 700px;
             }
         }
         #seccion__quienessomos--imagen{
-            width: 560px;
+            width: 700px;
+            height: 400px;
         }
     }
     #seccion__estilos{
+        padding-top: 0;
         flex-direction: column;
         gap: 0px;
         height: 800px;
         #seccion__estilos--imagen{
-            width: 550px;
-            height: 360px;
-            margin-bottom: 70px;  
+            width: 700px;
+            height: 400px;
         }
         #seccion__estilos--texto{
             line-height: 55px;
-            width: 550px;
+            width: 700px;
             margin-top: 130px;
             .seccion__estilos--titulo{
                 text-align: center;
@@ -191,7 +196,7 @@
         .textoUbicacion{
             font-size: 15px;
             line-height: 40px;
-            width: 650px;
+            width: 700px;
             margin-top: 100px;
         }
     }
@@ -219,6 +224,7 @@
     flex-direction: column;
     gap: 20px;
     height: 700px;
+    padding-bottom: 70px;
     #containerTextoBoton{
         #masInfo{
                 line-height: 0px;
@@ -229,29 +235,30 @@
                 }
             }
             #seccion__quienessomos--texto{
-                width: 500px;
+                width: 550px;
             }
         }
         #seccion__quienessomos--imagen{
             width: 550px;
+            height: 300px;
         }
     }
     #seccion__estilos{
-        padding-top: 30px;
+        padding-bottom: 130px;
         flex-direction: column;
         gap: 0px;
         #seccion__estilos--imagen{
-            width: 500px;
-            height: 400px;
-            margin-bottom: 100px;
+            width: 550px;
+            height: 350px;
         }
         #seccion__estilos--texto{
-            width: 500px;
+            width: 550px;
             line-height: 50px;
         }
     }
     #seccionUbicacion{
         height: 700px;
+        padding-bottom: 70px;
         #mapa{
             width: 550px;
         }
@@ -282,20 +289,22 @@
         }
     }
     #seccion__quienessomos{
+        padding-bottom: 70px;
         flex-direction: column;
-        gap: 20px;
+        gap: 0px;
         height: 650px;
         #containerTextoBoton{
             #masInfo{
                 line-height: 0px;
                 width: 92px;
                 height: 37px;
+                margin-bottom: 20px;
                 span{
                     font-size: 13px;
                 }
             }
             #seccion__quienessomos--texto{
-                line-height: 50px;
+                line-height: 45px;
                 width: 420px;
                 text-align: justify;
             }
@@ -307,9 +316,9 @@
         }
     }
     #seccion__estilos{
-        padding-top: 30px;
+        padding-bottom: 0px;
         flex-direction: column;
-        gap: 0px;
+        gap: 20px;
         height: 700px;
         margin-bottom: 80px;
         #seccion__estilos--imagen{
@@ -326,8 +335,8 @@
         }
     }
     #seccionUbicacion{
-
         height: 700px;
+        padding-bottom: 0px;
         #mapa{
             width: 440px;
             height: 350px;
@@ -361,6 +370,8 @@
     #seccion__quienessomos{
         flex-direction: column;
         gap: 20px;
+        height: 600px;
+        padding-bottom: 50px;
         #containerTextoBoton{
             #masInfo{
                 line-height: 0px;
@@ -371,7 +382,7 @@
                 }
             }
             #seccion__quienessomos--texto{
-                line-height: 50px;
+                line-height: 45px;
                 width: 350px;
                 text-align: justify;
             }
@@ -383,7 +394,7 @@
         }
     }
     #seccion__estilos{
-        padding-top: 30px;
+        padding-top: 35px;
         flex-direction: column;
         gap: 0px;
         height: 700px;
@@ -400,7 +411,7 @@
         }
     }
     #seccionUbicacion{
-        height: 650px;
+        height: 600px;
         #mapa{
             width: 360px;
             height: 300px;
@@ -439,8 +450,9 @@
     }
     #seccion__quienessomos{
         flex-direction: column;
-        gap: 20px;
-        height: 650px;
+        gap: 0px;
+        height: 580px;
+        padding-bottom: 100px;
         #containerTextoBoton{
             gap:0px;
             #masInfo{
@@ -449,40 +461,39 @@
                 font-size: 10.5px;
             }
             #seccion__quienessomos--texto{
-                line-height: 50px;
-                width: 300px;
+                line-height: 40px;
+                width: 305px;
             }
         }
         #seccion__quienessomos--imagen{
-            width: 300px;
-            height: 240px;
+            width: 305px;
+            height: 200px;
         }
     }
     #seccion__estilos{
-        padding-top: 30px;
+        padding-bottom: 140px;
         flex-direction: column;
         gap: 0px;
-        height: 650px;
+        height: 580px;
         #seccion__estilos--imagen{
-            width: 280px;
+            width: 305px;
             height: 250px;
-            margin-bottom: 100px;
+            margin-bottom: 0;
         }
         #seccion__estilos--texto{
             text-align: justify;
-            width: 280px;
+            width: 305px;
         }
     }
     #seccionUbicacion{
-        height: 650px;
+        height: 580px;
         #mapa{
-            width: 300px;
+            width: 305px;
             height: 300px;
         }
         .textoUbicacion{
-            font-size: 11px;
-            line-height: 50px;
-            margin-top: 50px;
+            font-size: 10px;
+            line-height: 40px;
             width: 305px;
         }
     }

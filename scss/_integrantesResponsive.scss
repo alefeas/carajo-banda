@@ -1,0 +1,385 @@
+@media only screen and (max-width:1439px){
+    .seccionIntegrantes{
+        gap: 120px;
+        font-size: 18px;
+        .titulosSeccionIntegrantes{
+            font-size: 30px;
+        }
+    }
+    .seccionMarceloCorvalan{
+        #marceloCorvalanTexto{
+            width: 540px;
+        }
+        #marceloCorvalanFoto{
+            width: 430px;
+        }
+    }
+    .seccionAndresVillanova{
+        #andresVillanovaTexto{
+            width: 540px;
+        }
+        #andresVillanovaFoto{
+            width: 430px;
+        }
+
+    }
+    .seccionHernanLanger{
+        #hernanLangerFoto{
+            width: 430px;
+        }
+        #hernanLangerTexto{
+            width: 540px;
+        }
+    }
+}
+@media only screen and (max-width:1200px){
+    #seccionTituloIntegrantes{
+        padding-bottom: 0px;
+        #tituloIntegrantes{
+            font-size: 52px;
+            padding-bottom: 8px;
+        }
+    }
+    .seccionIntegrantes{
+        gap: 70px;
+        font-size: 16px;
+        line-height: 60px;
+        height: 550px;
+        .titulosSeccionIntegrantes{
+            font-size: 26.5px;
+        }
+    }
+    .seccionMarceloCorvalan{
+        #marceloCorvalanTexto{
+            width: 400px;
+        }
+        #marceloCorvalanFoto{
+            width: 400px;
+        }
+    }
+    .seccionAndresVillanova{
+        #andresVillanovaTexto{
+            width: 400px;   
+        }
+        #andresVillanovaFoto{
+            width: 400px;
+        }
+
+    }
+    .seccionHernanLanger{
+        padding-bottom: 30px;
+        #hernanLangerFoto{
+            width: 400px;
+        }
+        #hernanLangerTexto{
+            width: 400px;
+        }
+    }
+}
+@media only screen and (max-width:1000px){
+    #seccionTituloIntegrantes{
+        #tituloIntegrantes{
+            font-size: 46px;
+            padding-bottom: 6px;
+        }
+    }
+    .seccionIntegrantes{
+        height: 525px;
+        gap: 70px;
+        font-size: 15px;
+        line-height: 60px;
+        .titulosSeccionIntegrantes{
+            font-size: 22.5px;
+        }
+    }
+    .seccionMarceloCorvalan{
+        #marceloCorvalanTexto{
+            width: 345px;
+        }
+        #marceloCorvalanFoto{
+            width: 380px;
+        }
+    }
+    .seccionAndresVillanova{
+        #andresVillanovaTexto{
+            width: 345px;   
+        }
+        #andresVillanovaFoto{
+            width: 380px;
+        }
+
+    }
+    .seccionHernanLanger{
+        padding-bottom: 20px;
+        #hernanLangerFoto{
+            width: 380px;
+        }
+        #hernanLangerTexto{
+            width: 345px;
+        }
+    }
+}
+@media only screen and (max-width:900px){
+    #seccionTituloIntegrantes{
+        #tituloIntegrantes{
+            font-size: 42px;
+            text-align: center;
+            padding-bottom: 5px;
+        }
+    }
+    .seccionIntegrantes{
+        height: 750px;
+        gap: 0;
+        font-size: 14px;
+        line-height: 55px;
+        .titulosSeccionIntegrantes{
+            font-size: 20.5px;
+        }
+    }
+    .seccionMarceloCorvalan{
+        flex-direction: column;
+        #marceloCorvalanTexto{
+            width: 637px;
+        }
+        #marceloCorvalanFoto{
+            width: 637px;
+            height: 450px;
+            box-shadow: 0 6px 15px;
+        }
+    }
+    .seccionAndresVillanova{
+        flex-direction: column;
+        #andresVillanovaTexto{
+            width: 637px;   
+        }
+        #andresVillanovaFoto{
+            width: 637px;
+            height: 450px;
+            box-shadow: 0 6px 15px;
+        }
+        
+    }
+    .seccionHernanLanger{
+        flex-direction: column;
+        padding-bottom: 20px;
+        #hernanLangerTexto{
+            width: 637px;
+        }
+        #hernanLangerFoto{
+            width: 637px;
+            height: 450px;
+            box-shadow: 0 6px 15px;
+        }
+    }
+}
+@media only screen and (max-width:768px){
+    #seccionTituloIntegrantes{
+        #tituloIntegrantes{
+            padding-top: 35px;
+            font-size: 38px;
+            text-align: center;
+            padding-bottom: 4px;
+        }
+    }
+    .seccionIntegrantes{
+        height: 700px;
+        gap: 0;
+        font-size: 12px;
+        line-height: 55px;
+        .titulosSeccionIntegrantes{
+            font-size: 19.5px;
+        }
+    }
+    .seccionMarceloCorvalan{
+        flex-direction: column;
+        #marceloCorvalanTexto{
+            width: 546px;
+        }
+        #marceloCorvalanFoto{
+            width: 546px;
+            height: 400px;
+            box-shadow: 0 6px 15px;
+        }
+    }
+    .seccionAndresVillanova{
+        flex-direction: column;
+        #andresVillanovaTexto{
+            width: 546px;   
+        }
+        #andresVillanovaFoto{
+            width: 546px;
+            height: 400px;
+            box-shadow: 0 6px 15px;
+        }
+        
+    }
+    .seccionHernanLanger{
+        flex-direction: column;
+        padding-bottom: 20px;
+        #hernanLangerTexto{
+            width: 546px;
+        }
+        #hernanLangerFoto{
+            width:546px;
+            height: 400px;
+            box-shadow: 0 6px 15px;
+        }
+    }
+}
+@media only screen and (max-width:600px){
+    #seccionTituloIntegrantes{
+        #tituloIntegrantes{
+            font-size: 30px;
+            text-align: center;
+        }
+    }
+    .seccionIntegrantes{
+        height: 700px;
+        gap: 0;
+        font-size: 10px;
+        line-height: 55px;
+        .titulosSeccionIntegrantes{
+            font-size: 17px;
+        }
+    }
+    .seccionMarceloCorvalan{
+        flex-direction: column;
+        #marceloCorvalanTexto{
+            width: 460px;
+        }
+        #marceloCorvalanFoto{
+            width: 460px;
+            height: 400px;
+            box-shadow: 0 6px 15px;
+        }
+    }
+    .seccionAndresVillanova{
+        flex-direction: column;
+        #andresVillanovaTexto{
+            width: 460px;   
+        }
+        #andresVillanovaFoto{
+            width: 460px;
+            height: 400px;
+            box-shadow: 0 6px 15px;
+        }
+        
+    }
+    .seccionHernanLanger{
+        flex-direction: column;
+        padding-bottom: 20px;
+        #hernanLangerTexto{
+            width: 460px;
+        }
+        #hernanLangerFoto{
+            width:460px;
+            height: 400px;
+            box-shadow: 0 6px 15px;
+        }
+    }
+}
+@media only screen and (max-width:480px){
+    #seccionTituloIntegrantes{
+        #tituloIntegrantes{
+            font-size: 26px;
+            text-align: center;
+        }
+    }
+    .seccionIntegrantes{
+        height: 625px;
+        gap: 0;
+        font-size: 9.5px;
+        line-height: 40px;
+        .titulosSeccionIntegrantes{
+            font-size: 15px;
+        }
+    }
+    .seccionMarceloCorvalan{
+        flex-direction: column;
+        #marceloCorvalanTexto{
+            width: 380px;
+        }
+        #marceloCorvalanFoto{
+            width: 380px;
+            height: 380px;
+            box-shadow: 0 6px 15px;
+        }
+    }
+    .seccionAndresVillanova{
+        flex-direction: column;
+        #andresVillanovaTexto{
+            width: 380px;   
+        }
+        #andresVillanovaFoto{
+            width: 380px;
+            height: 380px;
+            box-shadow: 0 6px 15px;
+        }
+        
+    }
+    .seccionHernanLanger{
+        flex-direction: column;
+        padding-bottom: 20px;
+        #hernanLangerTexto{
+            width: 380px;
+        }
+        #hernanLangerFoto{
+            width:380px;
+            height: 380px;
+            box-shadow: 0 6px 15px;
+        }
+    }
+}
+@media only screen and (max-width:480px){
+    #seccionTituloIntegrantes{
+        #tituloIntegrantes{
+            font-size: 20px;
+            text-align: center;
+            padding-top:30px;
+        }
+    }
+    .seccionIntegrantes{
+        height: 550px;
+        gap: 0;
+        font-size: 8.5px;
+        line-height: 35px;
+        .titulosSeccionIntegrantes{
+            font-size: 13px;
+        }
+    }
+    .seccionMarceloCorvalan{
+        flex-direction: column;
+        #marceloCorvalanTexto{
+            width: 310px;
+        }
+        #marceloCorvalanFoto{
+            width: 310px;
+            height: 310px;
+            box-shadow: 0 3px 7.5px;
+        }
+    }
+    .seccionAndresVillanova{
+        flex-direction: column;
+        #andresVillanovaTexto{
+            width: 310px;   
+        }
+        #andresVillanovaFoto{
+            width: 310px;
+            height: 310px;
+            box-shadow: 0 3px 7.5px;
+        }
+        
+    }
+    .seccionHernanLanger{
+        flex-direction: column;
+        padding-bottom: 20px;
+        #hernanLangerTexto{
+            width: 310px;
+        }
+        #hernanLangerFoto{
+            width:310px;
+            height: 310px;
+            box-shadow: 0 3px 7.5px;
+        }
+    }
+}
