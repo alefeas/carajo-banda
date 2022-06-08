@@ -1,65 +1,62 @@
-@media only screen and (min-width:1478px){
+@media only screen and (max-width:1500px){
     .seccionIndex{
-        font-size: 18px;
         .titulosSeccionIndex{
-            font-size: 30px;
             text-align: center;
-        }
-    }
-}
-@media only screen and (max-width:1478px){
-    .seccionIndex{
-        font-size: 18px;
-        .titulosSeccionIndex{
-            font-size: 30px;
-            text-align: center;
-        }
+        }   
     }
     #seccion__quienessomos{
-        gap: 50px;
+        height: 1000px;
+        gap: 25px;
+        padding-top: 50px;
+        flex-direction: column;
         #containerTextoBoton{
             #seccion__quienessomos--texto{
-                width: 350px;
+                width: 1000px;
             }
         }
         #seccion__quienessomos--imagen{
-            width: 750px;
+            height: auto;
+            width: 1000px;
         }
     }
     #seccion__estilos{
-        gap: 50px;
+        gap: 25px;
+        height: 900px;
+        padding-top: 85px;
+        flex-direction: column;
         #seccion__estilos--texto{
-            width: 600px;
+            width: 1000px;
+            .seccion__estilos--titulo{
+                margin-top: 0;
+                text-align: center;
+            }
+        }
+        #seccion__estilos--imagen{
+            height:auto;
+            width: 1000px;
         }
     }
     #seccionUbicacion{
+        height: 750px;
+        padding-top: 50px;
         .textoUbicacion{
-            font-size: 18px;
-            width: 1200px;
+            width: 1000px;
         }
         #mapa{
-            width: 1160px;
+            width: 1000px;
         }
     }
 }
 @media only screen and (max-width:1200px){
-    .seccionIndex{
-        font-size: 16px;
-        line-height: 50px;
-        gap: 0px;
-        .titulosSeccionIndex{
-            font-size: 26.5px;
-            padding-bottom: 10px;
-        }
-    }
     .seccionTitulo{
-        height: 800px;
+        height: 400px;
+        padding-top: 60px;
         .containerTitulo{
             h1{
                 font-size: 160px;
             }
             .textoIndex{
-                font-size: 35px;
+                font-size: 37px;
             }
         }
         #containerFlecha{
@@ -67,434 +64,332 @@
                 display: none;
             }
         }
-}
-
-#seccion__quienessomos{
-    flex-direction: column;
-    gap: 20px;
-    height: 700px;
-    padding-top: 50px;
-        #containerTextoBoton{
-            gap:0px;
-            #seccion__quienessomos--texto{
-                width: 880px;
-            }
-            #masInfo{
-                line-height: 0px;
-                height: 45px;
-                width: 112px;
-                &::after{
-                    border-bottom-color: rgba(255, 255, 255, 0.83);
-                }
-                span{
-                    font-size: 18px;
-                }
-            }
-        }
-        #seccion__quienessomos--imagen{
-            width: 850px;
-            height: 420px;
-        }
     }
-    #seccion__estilos{
-        gap: 70px;
-        height: 700px;
-        padding-top: 100px;
-        #seccion__estilos--imagen{
-            width: 450px;
-            height: 500px;
-        }
-        #seccion__estilos--texto{
-            width:430px;
-            line-height:51px;
-        }
-    }
-    #seccionUbicacion{
-        height: 700px;
-        #mapa{
-            width: 970px;
-        }
-        .textoUbicacion{
-            font-size: 15px;
-            line-height: 50px;
-            margin: 0 auto;
-            width: 970px;
-            text-align: center;
-        }
-    }
-}
-
-@media only screen and (max-width:1000px){
     .seccionIndex{
-        font-size: 15px;
-        line-height: 50px;
-        gap: 0px;
+        font-size: 18px;
+        line-height: 60px;
         .titulosSeccionIndex{
-            font-size: 24px;
-            text-align: center;
-        }
-    }
-    .seccionTitulo{
-        height: 400px;
-        padding-top: 60px;
-        .containerTitulo{
-            h1{
-                font-size: 110px;
-            }
-            .textoIndex{
-                font-size: 25px;
-            }
+            font-size: 30px;
         }
     }
     #seccion__quienessomos{
         flex-direction: column;
         gap: 20px;
-        height: 700px;
-        padding-top: 60px;
+        height: 875px;
+        margin: 0;
+        padding-top: 0px;
         #containerTextoBoton{
             gap:0px;
+            #seccion__quienessomos--texto{
+                width: 845px;
+            }
             #masInfo{
-                line-height: 0px;
                 span{
-                    font-size: 17px;
-                    width: 110px;
+                    font-size: 20px;
                 }
             }
+        }
+        #seccion__quienessomos--imagen{
+            width: 845px;
+            height: auto;
+        }
+    }
+    #seccion__estilos{
+        height: 800px;
+        padding-top: 0px;
+        flex-direction: column;
+        gap: 20px;
+        #seccion__estilos--imagen{
+            width: 845px;
+            height: auto;
+        }
+        #seccion__estilos--texto{
+            width:845px;
+        }
+    }
+    #seccionUbicacion{
+        height: 650px;
+        padding-top: 0;
+        display: flex;
+        gap: 15px;
+        #mapa{
+            width: 845px;
+        }
+        .textoUbicacion{
+            margin: 0 auto;
+            width: 845px;
+            text-align: center;
+        }
+    }
+}
+@media only screen and (max-width:900px){
+    .gradient{
+        padding-bottom: 10px;
+    }
+    .seccionIndex{
+        gap: 20px;
+    }
+    .seccionTitulo{
+        .containerTitulo{
+            h1{
+                font-size: 150px;
+            }
+            .textoIndex{
+                font-size: 35px;
+            }
+        }
+    }
+    #seccion__quienessomos{
+        flex-direction: column;
+        height: 775px;
+        #containerTextoBoton{
+            gap:0px;
             #seccion__quienessomos--texto{
                 width: 700px;
             }
         }
         #seccion__quienessomos--imagen{
             width: 700px;
-            height: 400px;
         }
     }
     #seccion__estilos{
         padding-top: 0;
         flex-direction: column;
-        gap: 0px;
-        height: 800px;
+        height: 775px;
         #seccion__estilos--imagen{
             width: 700px;
-            height: 400px;
         }
         #seccion__estilos--texto{
-            line-height: 55px;
             width: 700px;
-            margin-top: 130px;
             .seccion__estilos--titulo{
                 text-align: center;
             }
         }
     }
     #seccionUbicacion{
-        height: 700px;
+        height:660px;
         #mapa{
             width: 700px;
-            height: 400px;
         }
         .textoUbicacion{
-            font-size: 15px;
-            line-height: 40px;
             width: 700px;
-            margin-top: 100px;
         }
     }
 }
 @media only screen and (max-width:768px){
-    .seccionIndex{
-        font-size: 13px;
-        gap: 0px;
-        .titulosSeccionIndex{
-            font-size: 22px;
+    .seccionTitulo{
+        height: 400px;
+        .containerTitulo{
+            h1{
+                font-size: 130px;   
+            }
+            .textoIndex{
+                font-size: 30px;
+            }
         }
     }
-.seccionTitulo{
-    height: 400px;
-    .containerTitulo{
-    h1{
-        font-size: 100px;   
+    .seccionIndex{
+        font-size: 17px;
+        line-height: 55px;
+        .titulosSeccionIndex{
+            font-size: 28px;
+        }
     }
-    .textoIndex{
-        font-size: 22px;
-    }
-    }
-}
-#seccion__quienessomos{
-    flex-direction: column;
-    gap: 20px;
-    height: 700px;
-    padding-bottom: 70px;
+    #seccion__quienessomos{
+        flex-direction: column;
+        gap: 20px;
+        height: 725px;
     #containerTextoBoton{
         #masInfo{
-                line-height: 0px;
-                width: 100px;
-                height: 40px;
-                span{
-                    font-size: 15px;
-                }
+            line-height: 0;
+            span{
+                font-size: 19px;
             }
+        }
             #seccion__quienessomos--texto{
-                width: 550px;
+                width: 560px;
             }
         }
         #seccion__quienessomos--imagen{
-            width: 550px;
-            height: 300px;
+            width: 560px;
         }
     }
     #seccion__estilos{
-        padding-bottom: 130px;
         flex-direction: column;
         gap: 0px;
+        height: 700px;
         #seccion__estilos--imagen{
-            width: 550px;
-            height: 350px;
+            width: 560px;
         }
         #seccion__estilos--texto{
-            width: 550px;
-            line-height: 50px;
+            width: 560px;
         }
     }
     #seccionUbicacion{
-        height: 700px;
-        padding-bottom: 70px;
+        height: 640px;
         #mapa{
-            width: 550px;
+            width: 560px;
         }
         .textoUbicacion{
-            font-size: 14px;
-            line-height: 50px;
-            width: 550px;
+            width: 560px;
         }
     }
 }
 @media only screen and (max-width:600px){
+    .gradient{
+        padding-bottom: 0;
+    }
     .seccionIndex{
-        font-size: 13px;   
+        font-size: 16px;   
         gap: 0px;
         .titulosSeccionIndex{
-            font-size: 18px;
+            font-size: 25px;
         }
     }
     .seccionTitulo{
-        height: 400px;
+        padding-top: 90px;
         .containerTitulo{
-        h1{
-            font-size: 90px;
-        }
-        .textoIndex{
-            font-size: 20px;
-        }
+            h1{
+                font-size: 110px;
+            }
+            .textoIndex{
+                font-size: 25.5px;
+            }
         }
     }
     #seccion__quienessomos{
-        padding-bottom: 70px;
-        flex-direction: column;
-        gap: 0px;
-        height: 650px;
+        gap: 20px;
+        height: 700px;
         #containerTextoBoton{
             #masInfo{
-                line-height: 0px;
-                width: 92px;
-                height: 37px;
-                margin-bottom: 20px;
                 span{
-                    font-size: 13px;
+                    font-size: 18px;
                 }
             }
             #seccion__quienessomos--texto{
-                line-height: 45px;
-                width: 420px;
-                text-align: justify;
+                width: 450px;
             }
         }
         #seccion__quienessomos--imagen{
-            width: 430px;
-            height: 280px;
-            box-shadow: 4px 4px 4px;
+            width: 450px;
         }
     }
     #seccion__estilos{
-        padding-bottom: 0px;
         flex-direction: column;
         gap: 20px;
         height: 700px;
-        margin-bottom: 80px;
         #seccion__estilos--imagen{
-            width: 400px;
-            height: 300px;
-            margin-bottom: 0px;
-            box-shadow: 4px 4px 4px;
+            width: 450px;
         }
         #seccion__estilos--texto{
-            text-align: justify;
-            width: 395px;
-            line-height: 50px;
-            margin-bottom: 0px;
+            width: 450px;
         }
     }
     #seccionUbicacion{
         height: 700px;
         padding-bottom: 0px;
         #mapa{
-            width: 440px;
-            height: 350px;
-            box-shadow: 4px 4px 4px;
+            width: 450px;
         }
         .textoUbicacion{
-            font-size: 13px;
-            line-height: 50px;
-            margin: 0 auto;
-            width: 440px;
-            padding-top: 100px;
+            width: 450px;
+            text-align: justify;
         }
     }
 }
 @media only screen and (max-width:480px){
-    .seccionIndex{
-        font-size: 12px;   
-        gap: 0px;
+    .gradient{
+        padding-bottom: 20px;
     }
     .seccionTitulo{
         height: 400px;
         .containerTitulo{
             h1{
-                font-size: 80px;
+                font-size: 85px;
             }
             .textoIndex{
-                font-size: 18px;
+                font-size: 19.5px;
             }
         }
     }
     #seccion__quienessomos{
-        flex-direction: column;
-        gap: 20px;
-        height: 600px;
-        padding-bottom: 50px;
+        height: 700px;
         #containerTextoBoton{
-            #masInfo{
-                line-height: 0px;
-                width: 89px;
-                height: 35px;
-                span{
-                    font-size: 12px;
-                }
-            }
             #seccion__quienessomos--texto{
-                line-height: 45px;
                 width: 350px;
-                text-align: justify;
             }
         }
         #seccion__quienessomos--imagen{
             width: 370px;
-            height: 250px;
-            box-shadow: 3px 3px 3px;
         }
     }
     #seccion__estilos{
-        padding-top: 35px;
-        flex-direction: column;
-        gap: 0px;
-        height: 700px;
+        height: 750px;
         #seccion__estilos--texto{
-            text-align: justify;
             width: 370px;
-            line-height: 45px;
         }
         #seccion__estilos--imagen{
             width: 370px;
-            height: 250px;
-            margin-bottom: 90px;
-            box-shadow: 3px 3px 3px;
         }
     }
     #seccionUbicacion{
-        height: 600px;
+        height: 700px;
         #mapa{
             width: 360px;
-            height: 300px;
-            box-shadow: 3px 3px 3px;
-        }
+            height: 360px;
+            }
         .textoUbicacion{
-            font-size: 12px;
-            line-height: 50px;
-            margin: 0 auto;
             width: 340px;
-            padding-top: 0px;
-            margin-top: 30px;
-            text-align: justify;
         }
     }
 }
 @media only screen and (max-width:390px){
-    .seccionIndex{
-        font-size: 10px;   
-        gap: 0px;
-        .titulosSeccionIndex{
-            font-size: 17px;
-        }
-    }
     .seccionTitulo{
         height: 400px;
         padding-top: 80px;
         .containerTitulo{
             h1{
-                font-size: 60px;
+                font-size: 77px;
             }
             .textoIndex{
-                font-size: 13.5px;
+                font-size: 17.5px;
             }
         }
     }
     #seccion__quienessomos{
         flex-direction: column;
-        gap: 0px;
-        height: 580px;
-        padding-bottom: 100px;
+        height: 675px;
         #containerTextoBoton{
-            gap:0px;
             #masInfo{
-                line-height: 0px;
-                height: 32px;
-                font-size: 10.5px;
+                span{
+                    padding: 13px;
+                }
             }
             #seccion__quienessomos--texto{
-                line-height: 40px;
                 width: 305px;
             }
         }
         #seccion__quienessomos--imagen{
             width: 305px;
-            height: 200px;
         }
     }
     #seccion__estilos{
-        padding-bottom: 140px;
-        flex-direction: column;
-        gap: 0px;
-        height: 580px;
+        height: 750px;
         #seccion__estilos--imagen{
             width: 305px;
-            height: 250px;
-            margin-bottom: 0;
         }
         #seccion__estilos--texto{
-            text-align: justify;
             width: 305px;
         }
     }
     #seccionUbicacion{
-        height: 580px;
+        height:715px;
         #mapa{
             width: 305px;
-            height: 300px;
         }
         .textoUbicacion{
-            font-size: 10px;
-            line-height: 40px;
             width: 305px;
+            height: 305px;
         }
     }
 }

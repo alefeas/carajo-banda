@@ -1,14 +1,14 @@
 @media only screen and (max-width:1439px){
     .seccionIntegrantes{
         gap: 120px;
-        font-size: 18px;
+        font-size: 20px;
         .titulosSeccionIntegrantes{
-            font-size: 30px;
+            font-size: 32px;
         }
     }
     .seccionMarceloCorvalan{
         #marceloCorvalanTexto{
-            width: 540px;
+            width: 550px;
         }
         #marceloCorvalanFoto{
             width: 430px;
@@ -16,7 +16,7 @@
     }
     .seccionAndresVillanova{
         #andresVillanovaTexto{
-            width: 540px;
+            width: 550px;
         }
         #andresVillanovaFoto{
             width: 430px;
@@ -28,7 +28,7 @@
             width: 430px;
         }
         #hernanLangerTexto{
-            width: 540px;
+            width: 550px;
         }
     }
 }
@@ -36,22 +36,21 @@
     #seccionTituloIntegrantes{
         padding-bottom: 0px;
         #tituloIntegrantes{
-            font-size: 52px;
-            padding-bottom: 8px;
+            font-size: 85px;
         }
     }
     .seccionIntegrantes{
         gap: 70px;
-        font-size: 16px;
+        font-size: 18px;
         line-height: 60px;
         height: 550px;
         .titulosSeccionIntegrantes{
-            font-size: 26.5px;
+            font-size: 30px;
         }
     }
     .seccionMarceloCorvalan{
         #marceloCorvalanTexto{
-            width: 400px;
+            width: 415px;
         }
         #marceloCorvalanFoto{
             width: 400px;
@@ -59,7 +58,7 @@
     }
     .seccionAndresVillanova{
         #andresVillanovaTexto{
-            width: 400px;   
+            width: 415px;   
         }
         #andresVillanovaFoto{
             width: 400px;
@@ -68,10 +67,10 @@
     }
     .seccionHernanLanger{
         padding-bottom: 30px;
-        #hernanLangerFoto{
-            width: 400px;
-        }
         #hernanLangerTexto{
+            width: 415px;
+        }
+        #hernanLangerFoto{
             width: 400px;
         }
     }
@@ -79,61 +78,59 @@
 @media only screen and (max-width:1000px){
     #seccionTituloIntegrantes{
         #tituloIntegrantes{
-            font-size: 46px;
-            padding-bottom: 6px;
+            font-size: 85px;
         }
     }
     .seccionIntegrantes{
         height: 525px;
-        gap: 70px;
-        font-size: 15px;
+        gap: 50px;
+        font-size: 17px;
         line-height: 60px;
         .titulosSeccionIntegrantes{
-            font-size: 22.5px;
+            font-size: 28px;
         }
     }
     .seccionMarceloCorvalan{
         #marceloCorvalanTexto{
-            width: 345px;
+            width: 405px;
         }
         #marceloCorvalanFoto{
-            width: 380px;
+            width: 400px;
         }
     }
     .seccionAndresVillanova{
         #andresVillanovaTexto{
-            width: 345px;   
+            width: 405px;   
         }
         #andresVillanovaFoto{
-            width: 380px;
+            width: 400px;
         }
 
     }
     .seccionHernanLanger{
         padding-bottom: 20px;
         #hernanLangerFoto{
-            width: 380px;
+            width: 400px;
         }
         #hernanLangerTexto{
-            width: 345px;
+            width: 405px;
         }
     }
 }
 @media only screen and (max-width:900px){
     #seccionTituloIntegrantes{
         #tituloIntegrantes{
-            font-size: 42px;
             text-align: center;
-            padding-bottom: 5px;
+            padding-top: 30px;
         }
     }
     .seccionIntegrantes{
-        height: 750px;
+        height: 975px;
         gap: 0;
-        font-size: 14px;
+        font-size: 18px;
         line-height: 55px;
         .titulosSeccionIntegrantes{
-            font-size: 20.5px;
+            font-size: 30px;
         }
     }
     .seccionMarceloCorvalan{
@@ -143,7 +140,7 @@
         }
         #marceloCorvalanFoto{
             width: 637px;
-            height: 450px;
+            height: 637px;
             box-shadow: 0 6px 15px;
         }
     }
@@ -154,12 +151,13 @@
         }
         #andresVillanovaFoto{
             width: 637px;
-            height: 450px;
+            height: 637px;
             box-shadow: 0 6px 15px;
         }
         
     }
     .seccionHernanLanger{
+        height: 1000px;
         flex-direction: column;
         padding-bottom: 20px;
         #hernanLangerTexto{
@@ -167,7 +165,7 @@
         }
         #hernanLangerFoto{
             width: 637px;
-            height: 450px;
+            height: 637px;
             box-shadow: 0 6px 15px;
         }
     }
@@ -176,19 +174,16 @@
     #seccionTituloIntegrantes{
         #tituloIntegrantes{
             padding-top: 35px;
-            font-size: 38px;
+            font-size: 73.5px;
             text-align: center;
             padding-bottom: 4px;
+            margin-bottom: 0;
         }
     }
     .seccionIntegrantes{
-        height: 700px;
+        height: 925px;
         gap: 0;
-        font-size: 12px;
         line-height: 55px;
-        .titulosSeccionIntegrantes{
-            font-size: 19.5px;
-        }
     }
     .seccionMarceloCorvalan{
         flex-direction: column;
@@ -197,7 +192,7 @@
         }
         #marceloCorvalanFoto{
             width: 546px;
-            height: 400px;
+            height: 546px;
             box-shadow: 0 6px 15px;
         }
     }
@@ -208,7 +203,7 @@
         }
         #andresVillanovaFoto{
             width: 546px;
-            height: 400px;
+            height: 546px;
             box-shadow: 0 6px 15px;
         }
         
@@ -221,7 +216,7 @@
         }
         #hernanLangerFoto{
             width:546px;
-            height: 400px;
+            height: 546px;
             box-shadow: 0 6px 15px;
         }
     }
@@ -229,17 +224,17 @@
 @media only screen and (max-width:600px){
     #seccionTituloIntegrantes{
         #tituloIntegrantes{
-            font-size: 30px;
+            font-size: 62px;
             text-align: center;
         }
     }
     .seccionIntegrantes{
-        height: 700px;
+        height: 775px;
         gap: 0;
-        font-size: 10px;
+        font-size: 17px;
         line-height: 55px;
         .titulosSeccionIntegrantes{
-            font-size: 17px;
+            font-size: 28px;
         }
     }
     .seccionMarceloCorvalan{
@@ -266,6 +261,7 @@
         
     }
     .seccionHernanLanger{
+        height: 850px;
         flex-direction: column;
         padding-bottom: 20px;
         #hernanLangerTexto{
@@ -281,17 +277,17 @@
 @media only screen and (max-width:480px){
     #seccionTituloIntegrantes{
         #tituloIntegrantes{
-            font-size: 26px;
+            font-size: 51px;
             text-align: center;
+            padding-top: 25px;
         }
     }
     .seccionIntegrantes{
-        height: 625px;
+        height: 800px;
         gap: 0;
-        font-size: 9.5px;
-        line-height: 40px;
+        font-size: 16px;
         .titulosSeccionIntegrantes{
-            font-size: 15px;
+            font-size: 25px;
         }
     }
     .seccionMarceloCorvalan{
@@ -320,6 +316,7 @@
     .seccionHernanLanger{
         flex-direction: column;
         padding-bottom: 20px;
+        height: 825px;
         #hernanLangerTexto{
             width: 380px;
         }
@@ -330,21 +327,20 @@
         }
     }
 }
-@media only screen and (max-width:480px){
+@media only screen and (max-width:400px){
     #seccionTituloIntegrantes{
         #tituloIntegrantes{
-            font-size: 20px;
+            font-size: 41px;
             text-align: center;
-            padding-top:30px;
+            padding-top:20px;
         }
     }
     .seccionIntegrantes{
-        height: 550px;
+        height: 825px;
         gap: 0;
-        font-size: 8.5px;
-        line-height: 35px;
+        font-size: 16px;
         .titulosSeccionIntegrantes{
-            font-size: 13px;
+            font-size: 22px;
         }
     }
     .seccionMarceloCorvalan{
@@ -373,6 +369,7 @@
     .seccionHernanLanger{
         flex-direction: column;
         padding-bottom: 20px;
+        height: 850px;
         #hernanLangerTexto{
             width: 310px;
         }
