@@ -1,5 +1,4 @@
 @media only screen and (max-width: 900px) {
-  
   footer {
     height: 120px;
     #containerRedes {
@@ -16,134 +15,136 @@
     #copyright {
       font-size: 15px;
     }
-    }
+  }
+  header{
     nav{
       ul{
         li{
           a{
             font-size: 16px;
           } 
-          } 
-        }
+        } 
       }
+    }
   }
-  @media only screen and (max-width: 767px) {
-    header{
-      nav{
-        ul{
-          text-align: right;
-          li{
-            margin-right: 7px;
-          }
+}
+@media only screen and (max-width: 767px) {
+  header{
+    nav{
+      ul{
+        text-align: right;
+        li{
+          margin-right: 7px;
         }
       }
     }
   }
-  @media only screen and (max-width: 768px) {
-    header {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-      gap: 0;
-      border-bottom: white solid 2px;
-      nav{
-        margin-left: 20px;
-        button {
-          margin-right: 20px;
-        }
-        ul{ 
-          margin-right: 20px;
-          li{
-            a{
-              font-size: 16px;
-            }
-            &:hover::after{
-              display: none;
-            }
+}
+@media only screen and (max-width: 768px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 0;
+    border-bottom: white solid 2px;
+    nav{
+      margin-left: 20px;
+      button {
+        margin-right: 20px;
+      }
+      ul{ 
+        margin-right: 20px;
+        li{
+          a{
+            font-size: 16px;
+          }
+          &:hover::after{
+            display: none;
           }
         }
-        .carajoLogo {
-          width: 40px;
+      }
+    .carajoLogo {
+        width: 40px;
+        height: 40px;
+      }
+    } 
+  }
+  footer{
+    #containerRedes {
+      ul{
+        gap: 28px;
+        li{
+          height: 45px;
+          width: 45px;
+          a{
+            font-size: 25px;
+            padding: 12px;
+          }
+        }
+      }
+    }
+    #copyright {
+      font-size: 14px;
+    }
+  }
+}
+@media only screen and (max-width: 600px) {
+  footer {
+    height: 100px;
+    #containerRedes {
+      margin-top: 10px;
+      ul{
+        gap: 28px;
+        li{
           height: 40px;
-        }
-      } 
-    }
-    footer{
-      #containerRedes {
-        ul{
-          gap: 28px;
-          li{
-            height: 45px;
-            width: 45px;
-            a{
-              font-size: 25px;
-              padding: 12px;
-            }
+          width: 40px;
+          a{
+            font-size: 23px;
+            padding: 10px;
           }
         }
       }
-      #copyright {
-        font-size: 14px;
-      }
-    }
-  }
-  @media only screen and (max-width: 600px) {
-    footer {
-      height: 100px;
-      #containerRedes {
-        margin-top: 10px;
-        ul{
-          gap: 28px;
-          li{
-            height: 40px;
-            width: 40px;
-            a{
-              font-size: 23px;
-              padding: 10px;
-            }
-          }
-        }
     }
     #copyright {
       font-size: 13px;
     }
-    }
   }
-  @media only screen and (max-width: 479px) {
-    footer{
-      #containerRedes {
-        margin-top: 15px;
-        ul{
-          gap: 20px;
-          li{
-            height: 35px;
-            width: 35px;
-            &:hover{
-              box-shadow: 0 0 7px;
-            }
-            a{
-              font-size: 21px;
-            }
-          }
-        }
-      }
-      #copyright {
-        font-size: 12px;
-      }
-    }
-    header{
-      nav{
-        .carajoLogo {
-          width: 35px;
+}
+@media only screen and (max-width: 479px) {
+  footer{
+    #containerRedes {
+      margin-top: 15px;
+      ul{
+        gap: 20px;
+        li{
           height: 35px;
+          width: 35px;
+          &:hover{
+            box-shadow: 0 0 7px;
+          }
+          a{
+            font-size: 21px;
+          }
         }
-        ul{
-          li{
-            a {
-              font-size: 14px;
-            }
+      }
+    }
+    #copyright {
+      font-size: 12px;
+    }
+  }
+  header{
+    nav{
+      .carajoLogo {
+        width: 35px;
+        height: 35px;
+      }
+      ul{
+        li{
+          a {
+            font-size: 14px;
           }
         }
       }
     }
   }
+}

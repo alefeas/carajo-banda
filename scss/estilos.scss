@@ -39,6 +39,7 @@ body{
 }
 
 /*HEADER Y FOOTER*/
+
 .encabezadoPieDePagina{
     font-family: 'Raleway', sans-serif;
 }
@@ -203,14 +204,12 @@ footer{
 }
 @keyframes efectoTitulo {
     0%{
-
     }
 }
 @keyframes efectoFlecha{
     0%{
         transform: translateY(20px) scale(1.05);
     }
-    
     100%{
         transform: translateY(37.5px) scale(1);
     }
@@ -531,6 +530,7 @@ $estilosTextoIntegrantes:(
 @import "_galeriaResponsive";
 
 /*NUESTROS DISCOS*/
+
 #seccionTituloDiscos{
     padding-top: 40px;
     padding-bottom: 40px;
@@ -666,7 +666,7 @@ $estilosTextoIntegrantes:(
                     font-weight: bold;
                 }      
                 .form__select{
-                    text-align: center;
+                    text-align: left;
                     transition: all 0.25s ease-in;
                     font-size: 18px;
                     background: rgb(0, 0, 0);
